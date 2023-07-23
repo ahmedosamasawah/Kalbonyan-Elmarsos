@@ -14,6 +14,6 @@
 
 ---
 
-### [Back To Node JS Course](../05-Node-js-Maximilian/readme.md)
+### [Back To Node JS Course](../05-Node-JS-Maximilian/readme.md)
 
 ### [Next To Serverless-Functions-Netlify Course](../../03-Serverless-Functions-Netlify/readme.md)
