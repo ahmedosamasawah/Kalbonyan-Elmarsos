@@ -1,0 +1,44 @@
+.container {
+  font-family: sans-serif;
+  background-color: #ddd;
+  font-size: 35px;
+  margin: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.el {
+  flex: 1;
+}
+
+.el-1 {
+  background-color: blueviolet;
+  align-self: flex-start;
+}
+.el-2 {
+  background-color: orangered;
+}
+.el-3 {
+  background-color: green;
+  height: 120px;
+}
+.el-4 {
+  background-color: goldenrod;
+}
+.el-5 {
+  background-color: palevioletred;
+  align-self: stretch;
+  order: 1;
+}
+.el-6 {
+  background-color: steelblue;
+  order: -1;
+}
+.el-7 {
+  background-color: yellow;
+}
+.el-8 {
+  background-color: crimson;
+}

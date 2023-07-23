@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        text-align: center;
+        font-family: sans-serif;
+        color: #343a40;
+        font-weight: bold;
+        display: grid;
+        grid-template-columns: 80px 400px 1fr 250px;
+        grid-template-rows: 80px 1fr;
+        height: 100vh;
+      }
+
+      nav {
+        background-color: #343a40;
+        color: #fff;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 20px;
+        grid-row: 1 / -1;
+      }
+
+      menu {
+        background-color: #7950f2;
+        display: flex;
+        gap: 10px;
+        grid-column: 2 / -1;
+        align-items: center;
+        padding: 0 40px;
+      }
+
+      button {
+        cursor: pointer;
+        background-color: #5f3dc4;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        padding: 8px 16px;
+      }
+
+      button:last-child {
+        background-color: #d6336c;
+        margin-left: auto;
+      }
+      section {
+        background-color: #e9ecef;
+        font-size: 24px;
+        padding: 40px;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+      }
+
+      p {
+        background-color: #adb5bd;
+        height: 96px;
+        flex-shrink: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      main {
+        font-size: 24px;
+        padding-top: 20px;
+      }
+      aside {
+        background-color: #e9ecef;
+        font-size: 24px;
+        padding-top: 20px;
+      }
+    </style>
+    <title>App Layout</title>
+  </head>
+  <body>
+    <nav>NAV</nav>
+    <menu>
+      <button>New</button>
+      <button>Reply</button>
+      <button>Forward</button>
+      <button>Mark unread</button>
+      <button>Trash</button>
+    </menu>
+    <section>
+      <p>Email 1</p>
+      <p>Email 2</p>
+      <p>Email 3</p>
+      <p>Email 4</p>
+      <p>Email 5</p>
+      <p>Email 6</p>
+      <p>Email 7</p>
+      <p>Email 8</p>
+      <p>Email 9</p>
+      <p>Email 10</p>
+    </section>
+    <main>Email View</main>
+    <aside>Additional Info</aside>
+  </body>
+</html>

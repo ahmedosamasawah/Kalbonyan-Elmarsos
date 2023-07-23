@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /*   
+    SPACING SYSTEM (px)
+     2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    FONT SIZE SYSTEM (px)
+     10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+       
+    MAIN COLOR: #087f5b
+    GREY COLOR: #343a40
+ */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .Container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+
+      html {
+        font-family: "Rubik", sans-serif;
+      }
+
+      header {
+        color: #fff;
+        height: 100vh;
+        background-color: #343a40;
+        position: relative;
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+      }
+
+      nav {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .Header-Container {
+        width: 1200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .Header-Adress {
+        width: 50%;
+      }
+
+      h1 {
+        font-size: 52px;
+        margin-bottom: 32px;
+        line-height: 1.05;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn:link,
+      .btn:visited {
+        display: inline-block;
+        padding: 16px 32px;
+        font-weight: 600;
+        font-size: 20px;
+        background-color: #e67e22;
+        cursor: pointer;
+        border-radius: 9px;
+      }
+
+      section {
+        color: #343a40;
+        padding: 96px 0;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+    </style>
+    <title>Omnifood Hero Section</title>
+  </head>
+  <body>
+    <header>
+      <nav class="Container">
+        <a href="#">LOGO</a>
+        <a href="#">NAVIGATION</a>
+      </nav>
+
+      <div class="Header-Container">
+        <div class="Header-Adress">
+          <h1>I just want someone to look at me the way I look at food</h1>
+          <p>
+            If you express love through food, you might be Egyptian, Turkish, or
+            from the Middle Eastern! Food brings people together on many
+            different levels. It is the nourishment of the soul and body; it is
+            truly love
+          </p>
+          <a href="#" class="btn">Start eating well</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="Container">
+        <h2>
+          When a man’s stomach is full it makes no difference whether he is rich
+          or poor
+        </h2>
+        <p>
+          Q: What do you call a person who actually likes dark chocolate more
+          than milk chocolate? A: A liar. Relationship status: chocolate. I have
+          forgotten a lot of things in life. A meal has never been one of them.
+          Our minds are like our stomaches; they are whetted by the change of
+          their food, and variety supplies both with fresh appetite. My favorite
+          time of day is to get up and eat leftovers from dinner, especially
+          spicy food.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

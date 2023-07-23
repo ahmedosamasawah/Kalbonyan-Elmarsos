@@ -1,0 +1,11 @@
+<section class="pagination">
+  <% if (pagination.hasPrev) { %>
+      <a href="?page=<%= pagination.currPage - 1 %>">Prev</a>
+  <% } %> 
+  <% for(let i = 1; i <= pagination.totalPages; i++) { %>
+      <a href="?page=<%= i %>" class="<%= pagination.currPage === i ? 'active': '' %>" ><%= i %></a>
+  <% } %> 
+  <% if (pagination.hasNext) { %>
+      <a href="?page=<%= pagination.currPage + 1 %>">Next</a>
+  <% } %>
+</section>

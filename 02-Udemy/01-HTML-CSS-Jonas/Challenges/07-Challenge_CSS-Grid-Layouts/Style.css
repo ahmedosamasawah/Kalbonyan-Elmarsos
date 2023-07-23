@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 850px;
+  margin: 30px auto;
+  color: #444;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+}
+
+article {
+  border: 5px solid #000000;
+}
+
+.Layout-2 {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 8px;
+}
+
+.PandS {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.Content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 8px;
+  position: relative;
+}
+
+h2::after {
+  content: "SALE";
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+  background-color: red;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -18px;
+  left: -37px;
+  letter-spacing: 0.2rem;
+}
+
+.Price {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Shipping {
+  text-transform: uppercase;
+  font-size: 12px;
+  justify-self: end;
+  font-weight: bold;
+  color: rgb(133, 133, 133);
+}
+
+.Info {
+  margin-bottom: 0;
+}
+
+.colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+
+.Colors {
+  width: 22px;
+  height: 22px;
+}
+
+.Black {
+  background-color: #000000;
+}
+
+.Blue {
+  background-color: blue;
+}
+
+.Red {
+  background-color: red;
+}
+
+.Yellow {
+  background-color: rgba(255, 208, 0, 0.671);
+}
+
+.Green {
+  background-color: green;
+}
+
+.Brown {
+  background-color: brown;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 5px;
+}
+
+a:link,
+a:visited {
+  text-decoration: underline;
+  font-size: 16px;
+  color: #444;
+  text-transform: capitalize;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  background-color: #000000;
+  border: none;
+  padding: 10px 0;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: white;
+  border: white;
+  color: #444;
+  border-top: 3px solid #000000;
+}

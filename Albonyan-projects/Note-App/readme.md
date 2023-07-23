@@ -1,4 +1,9 @@
-# Note App 
-[Demo]()
+# Notes App:
 
-[Code](./Code/)
+- [Project Code](https://github.com/ahmedosamasawah/YourNotesApp.git)
+
+- [Project Demo](https://yournotes-s56j.onrender.com/)
+
+---
+
+- [Back](../readme.md)

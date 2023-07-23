@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "core-js": "^3.28.0",
+    "leaflet": "^1.9.3",
+    "lodash-es": "^4.17.21",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "name": "17-modern-js-modules-tooling",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}

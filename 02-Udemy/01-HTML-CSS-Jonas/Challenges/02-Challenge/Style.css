@@ -1,0 +1,68 @@
+body {
+  color: #444;
+  font-size: 18px;
+  font-family: serif; /*I tend to this font more than the other :D */
+  line-height: 1.4;
+}
+
+article {
+  border: 3px solid rgb(17, 17, 17);
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: rgb(226, 226, 226);
+  text-align: center;
+}
+
+.Price {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Shipping {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(133, 133, 133);
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: square;
+}
+
+a:link,
+a:visited {
+  text-decoration: underline;
+  font-size: 16px;
+  color: #444;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  border: none;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  border: white;
+  color: #444;
+}

@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 800px;
+  margin: 30px auto;
+  color: #444;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border: 5px solid #000000;
+  /* background-color: red; */
+}
+
+.Flexbox {
+  flex: 1;
+  display: flex;
+  margin-top: 12px;
+  gap: 20px;
+}
+
+.Product-Picture {
+  width: 200px;
+  display: flex;
+  /* border: 3px solid black; */
+}
+
+.Layout-2 {
+  flex: 1;
+  /* border: 3px solid black; */
+}
+
+.Layout-3 {
+  flex: 1;
+  /* border: 3px solid black; */
+}
+
+.Content {
+  margin-top: 12px;
+}
+
+ul {
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 8px;
+  position: relative;
+}
+
+h2::after {
+  content: "SALE";
+  font-weight: bold;
+  color: white;
+  font-size: 12px;
+  background-color: red;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -18px;
+  left: -37px;
+  letter-spacing: 0.2rem;
+}
+
+.Price-Shipping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.Price {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Shipping {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(133, 133, 133);
+}
+
+.colors {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.Colors {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+#Black {
+  background-color: #000000;
+}
+
+#Blue {
+  background-color: blue;
+}
+
+#Red {
+  background-color: red;
+}
+
+#Yellow {
+  background-color: rgba(255, 208, 0, 0.671);
+}
+
+#Green {
+  background-color: green;
+}
+
+#Brown {
+  background-color: brown;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  list-style: square;
+  margin-bottom: 10px;
+}
+
+a:link,
+a:visited {
+  text-decoration: underline;
+  font-size: 16px;
+  color: #444;
+  text-transform: capitalize;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+button {
+  background-color: #000000;
+  border: none;
+  padding: 10px 0;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: white;
+  border: white;
+  color: #444;
+  border-top: 3px solid #000000;
+}

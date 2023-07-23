@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Ahmed Osama Sawah",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "@types/sequelize": "^4.28.15",
+    "body-parser": "^1.20.2",
+    "ejs": "^2.7.4",
+    "express": "^4.18.2",
+    "express-handlebars": "3.0",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.4.0",
+    "pug": "^2.0.4",
+    "sequelize": "^6.32.1"
+  }
+}

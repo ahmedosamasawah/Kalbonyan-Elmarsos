@@ -1,0 +1,53 @@
+/* <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="Style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Converse Chuck Taylor All Star Low Top</title>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h2>Converse Chuck Taylor All Star Low Top</h2>
+        <div class="Product-Picture">
+          <img
+            src="challenges.jpg"
+            alt="Shoes Picture"
+            width="40%"
+            height="40%"
+          />
+        </div>
+      </header>
+
+      <p class="Price"><strong>$65.00</strong></p>
+      <p class="Shipping">Free shipping</p>
+      <div class="Content">
+        <p>
+          Ready to dress up or down, these classic canvas Chucks are an everyday
+          wardrobe staple.
+        </p>
+
+        <a href="#">More information &rarr;</a>
+      </div>
+
+      <div class="Colors" id="Black"></div>
+      <div class="Colors" id="Blue"></div>
+      <div class="Colors" id="Red"></div>
+      <div class="Colors" id="Yellow"></div>
+      <div class="Colors" id="Green"></div>
+      <div class="Colors" id="Brown"></div>
+
+      <div class="details">
+        <h3>Product details</h3>
+        <ul>
+          <li>Lightweight, durable canvas sneaker</li>
+          <li>Lightly padded footbed for added comfort</li>
+          <li>Iconic Chuck Taylor ankle patch</li>
+        </ul>
+      </div>
+      <p><button>Add to card</button></p>
+    </article>
+  </body>
+</html> */

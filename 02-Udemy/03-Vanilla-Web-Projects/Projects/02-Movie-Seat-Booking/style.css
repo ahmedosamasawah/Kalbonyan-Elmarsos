@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #242333;
+  font-family: "Lato", sans-serif;
+}
+
+.movieContainer label {
+  font-size: 15px;
+}
+
+.movieContainer select {
+  border: none;
+  padding: 5px 0;
+  font-size: 15px;
+  appearance: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-align: center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.showCase {
+  gap: 25px;
+  display: flex;
+  color: #888;
+  list-style: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.showCase li {
+  gap: 6px;
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-bottom: 30px;
+  perspective: 1000px;
+}
+
+.screen {
+  width: 100%;
+  height: 70px;
+  margin: 30px 0;
+  border-radius: 1px;
+  background-color: #fff;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.9);
+}
+
+.row {
+  gap: 8px;
+  display: flex;
+}
+
+.seat {
+  width: 15px;
+  height: 13px;
+  background-color: #444451;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.container .seat {
+  margin-bottom: 10px;
+}
+
+.seat.selected {
+  background-color: #6feaf6;
+}
+
+.seat.occupied {
+  background-color: #fff;
+}
+
+.container .seat:nth-child(2) {
+  margin-right: 15px;
+}
+
+.container .seat:nth-last-child(2) {
+  margin-left: 15px;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.showCase .seat:not(.occupied):hover {
+  cursor: default;
+  transform: scale(1);
+}
+
+p.text {
+  margin: 5px 0;
+}
+
+p.text span {
+  color: #6feaf6;
+}
