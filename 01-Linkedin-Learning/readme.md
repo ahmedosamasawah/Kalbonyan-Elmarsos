@@ -4,6 +4,6 @@
 - [02) Programming Foundations Beyond Fundamentals](./-02-Programming-Foundations-Beyond-Fundamentals/readme.md)
 
 ---
-### [Back: Home](../readme.md)
+### [Back: Home](../README.md)
 
 ### [Next: Udemy Courses](../02-Udemy/readme.md)
