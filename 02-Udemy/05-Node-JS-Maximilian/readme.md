@@ -54,6 +54,6 @@
 
 ---
 
-### [Back To React JS Course](../04-React-js-Maximilian/readme.md)
+### [Back To React JS Course](../04-React-JS-Maximilian/readme.md)
 
 ### [Next To MERN Course](../06-MERN-Jobify/readme.md)
