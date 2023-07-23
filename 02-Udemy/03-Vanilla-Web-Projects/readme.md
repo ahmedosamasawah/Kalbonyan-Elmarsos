@@ -29,7 +29,7 @@
 
 ---
 
-- [Course-Link](https://www.udemy.com/course/web-projects-with-vanilla-javascript/)<br>
+- [Course-Link](https://www.udemy.com/course/web-projects-with-vanilla-javascript/)
 
 - [Certificate Link](https://www.udemy.com/certificate/UC-266ce8a1-0925-4ef1-8ae3-f18f1a70d65f/)
 
